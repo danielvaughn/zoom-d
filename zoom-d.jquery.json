@@ -1,0 +1,27 @@
+{
+  "name": "zoom-d",
+  "title": "Zoom-d",
+  "description": "A simple plugin for image zooming.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/danielvaughn/zoom-d",
+  "author": {
+    "name": "Daniel Vaughn",
+    "email": "danielbvaughn@gmail.com",
+    "url": "danielvaughn.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielvaughn/zoom-d.git"
+  },
+  "bugs": "https://github.com/danielvaughn/zoom-d/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/danielvaughn/zoom-d/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}

@@ -15,7 +15,9 @@ In your web page:
 <script src="dist/zoom-d.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+  $.zoomd({
+  	max: 6
+  });
 });
 </script>
 ```

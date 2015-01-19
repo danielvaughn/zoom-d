@@ -2,9 +2,40 @@
 <head>
 	<title>Zoom-d Demo Page</title>
 	<link rel="stylesheet" type="text/css" href="">
+	<style type="text/css">
+		html, body { height: 100%; }
+
+		div#container {
+			width: 1024px;
+			height: 600px;
+			margin: 0 auto;
+		}
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -135px;
+			margin-left: -400px;
+			width: 800px;
+			height: 270px;
+		}
+	</style>
 </head>
 <body>
 
-<script type="text/javascript" src=""></script>
+	<div id="container">
+		<img src="https://farm8.staticflickr.com/7068/6777014590_4e9bed1d4a_o.jpg">
+	</div>
+
+<script type="text/javascript" src="../libs/jquery/jquery.js"></script>
+<script type="text/javascript" src="jquery.zoom-d.js"></script>
+<script type="text/javascript">
+
+	$('div#container > img').zoomd({
+		max: 3
+	});
+
+</script>
 </body>
 </html>
